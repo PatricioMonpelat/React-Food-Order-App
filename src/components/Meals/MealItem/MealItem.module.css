@@ -1,0 +1,42 @@
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #0F3D3E;
+  }
+  
+  .meal h3,h2,h1 {
+    margin: 0 0 0.25rem 0;
+  }
+
+  .description {
+    margin-top: 30px;
+    font-style: 'Noto Sans JP', sans-serif;
+  }
+
+  .ingredients {
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: 'Noto Sans JP', sans-serif;
+  }
+  
+  .price {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #D36B00;
+    font-size: 1.25rem;
+    
+  }
+
+  .meal-image {
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .meal-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
