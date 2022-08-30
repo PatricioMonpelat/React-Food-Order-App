@@ -2,8 +2,7 @@ import Card from "../UI/Card";
 import MealItem from "./MealItem/MealItem";
 import classes from "./AvailableMeals.module.css";
 import locro from '../../assets/locro.jpg';
-import goulash from '../../assets/goulash.jpeg';
-import pollo from '../../assets/pollo.jpeg';
+import pollo from '../../assets/pollo.jpg';
 import mondongo from '../../assets/mondongo.jpg';
 import carne from '../../assets/carne.jpg';
 
