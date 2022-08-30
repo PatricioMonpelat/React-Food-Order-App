@@ -27,13 +27,13 @@
     object-fit: cover;
     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
   }
-  .arg{
+  .palta{
     width: auto;
-    height: 100px;
+    height: 60px;
   }
 
-  @media only screen and (max-width: 1026px) {
+  /* @media only screen and (max-width: 1026px) {
     h1 {
         display: none;
     }
-}
+} */
