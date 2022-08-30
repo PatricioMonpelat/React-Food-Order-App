@@ -5,6 +5,7 @@ import locro from '../../assets/locro.jpg';
 import goulash from '../../assets/goulash.jpeg';
 import pollo from '../../assets/pollo.jpeg';
 import mondongo from '../../assets/mondongo.jpg';
+import carne from '../../assets/carne.jpg';
 
 const DUMMY_MEALS = [
   {
@@ -21,7 +22,7 @@ const DUMMY_MEALS = [
     description: "A Hungarian specialty!",
     ingredients: "Ingredients: Rice, Meat, Onion, Paprika.",
     price: 160,
-    image: goulash
+    image: carne
   },
   {
     id: "m3",
