@@ -19,14 +19,14 @@ const Cart = (props) => {
   };
 
   const cartItems = (
-    <ul className={classes['cart-items']}>
+    <ul className={classes["cart-items"]}>
       {cartCtx.items.map((item) => (
         <CartItem
           key={item.id}
           name={item.name}
           amount={item.amount}
           price={item.price}
-          onRemove={()=> cartItemRemoveHandler(item.id)}
+          onRemove={() => cartItemRemoveHandler(item.id)}
           onAdd={() => cartItemAddHandler(item)}
         />
       ))}
@@ -35,15 +35,18 @@ const Cart = (props) => {
   return (
     <Modal onClose={props.onClose}>
       {cartItems}
+      <div className={classes.title}>
+        <span>Carrito de Compras</span>
+      </div>
       <div className={classes.total}>
-        <span>Total Amount</span>
-        <span>{totalAmount}</span>
+        {hasItems ? <span>Subtotal (sin envio):</span> : <span>El carrito de compras esta vacío.</span> }
+        {hasItems && <span>{totalAmount}</span> }
       </div>
       <div className={classes.actions}>
-        <button className={classes['button--alt']} onClick={props.onClose}>
-          Close
+        <button className={classes["button--alt"]} onClick={props.onClose}>
+          Ver mas productos
         </button>
-        {hasItems && <button className={classes.button}>Order</button>}
+        {hasItems && <button className={classes.button}>INICIAR COMPRA</button>}
       </div>
     </Modal>
   );
