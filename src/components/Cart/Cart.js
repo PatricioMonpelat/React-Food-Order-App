@@ -34,10 +34,10 @@ const Cart = (props) => {
   );
   return (
     <Modal onClose={props.onClose}>
-      {cartItems}
       <div className={classes.title}>
         <span>Carrito de Compras</span>
       </div>
+      {cartItems}
       <div className={classes.total}>
         {hasItems ? <span>Subtotal (sin envio):</span> : <span>El carrito de compras esta vacío.</span> }
         {hasItems && <span>{totalAmount}</span> }
