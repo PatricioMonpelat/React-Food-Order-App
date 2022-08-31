@@ -2,14 +2,18 @@
 
 * {
   box-sizing: border-box;
+  
 }
 
 html {
+  min-width: 540px;
   font-family: 'Noto Sans JP', sans-serif;
+
 }
 
 body {
   margin: 0;
   background-color: #3f3f3f;
+  min-width: 540px;
 }
 

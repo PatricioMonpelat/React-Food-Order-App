@@ -20,6 +20,7 @@
     box-shadow: 0 2px 8px rgba(16, 15, 15, 0.25);
     z-index: 30;
     animation: slide-down 300ms ease-out forwards;
+
   }
   
   @media (min-width: 768px) {
